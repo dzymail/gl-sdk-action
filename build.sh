@@ -42,8 +42,8 @@ axt1800_sdk_get()
 mt7981_sdk_get()
 {
 	 git clone https://github.com/gl-inet-builder/openwrt-sdk-mt7981.git  openwrt-sdk
-	 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages' >> openwrt-sdk/feeds.conf.default
-	 echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci' >> openwrt-sdk/feeds.conf.default
+	 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> ${WORKDIR}/openwrt-sdk/feeds.conf.default
+	 echo 'src-git small https://github.com/kenzok8/small' >> ${WORKDIR}/openwrt-sdk/feeds.conf.default
 }
 
 
