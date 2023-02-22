@@ -17,3 +17,5 @@ luci-app-openclash
 luci-app-ikoolproxy
 
 luci-app-ssr-plus
+
+luci-app-adguardhome
