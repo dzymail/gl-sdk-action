@@ -69,6 +69,7 @@ sed -i "1i\src-link githubaction ${WORKDIR}/buildsource" feeds.conf.default
 ls -l
 cat feeds.conf.default
 
+git pull
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 echo CONFIG_ALL=y >.config
